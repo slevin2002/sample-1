@@ -1,0 +1,43 @@
+#circle1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 10px;
+}
+
+#circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(81, 101, 101);
+    margin: 10px;
+}
+
+#circle3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(79, 202, 100);
+    margin: 10px;
+}
+
+#circle4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(189, 72, 101);
+    margin: 10px;
+
+}
+
+#circle5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(222, 222, 65);
+    margin: 10px;
+}
+.circle{
+    padding: 50px 0 0 50px;
+}

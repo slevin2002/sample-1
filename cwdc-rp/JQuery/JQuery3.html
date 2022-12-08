@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style type="text/css">
+        html, 
+        body {
+            height: 100%;
+            /* width: 100%; */
+        }
+        #circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: aqua;
+            margin: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+   
+    
+   <script type="text/javascript">
+       
+        $("#circle").click(function(){
+     
+            let h = $('body').css('height');
+            console.log(h);
+        
+            let w = $('body').css('width');   
+            console.log(w);    
+            
+            let m = $('body').css('margin');
+
+            document.write('height=' + h + '<br>' + 'width=' + w + '<br>' + 'margin=' + m + '<br>');
+
+            // $("#circle").css("background-color", "blue")
+        });
+   </script>
+    
+</body>
+</html>

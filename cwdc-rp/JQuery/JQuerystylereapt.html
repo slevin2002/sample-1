@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style type="text/css">
+        #circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: aqua;
+            margin: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+   
+    
+   <script type="text/javascript">
+        var w=200;
+        $("#circle").click(function(){
+
+            var i=0;
+
+         for(i=0;i<=10;i++){
+            setTimeout(function() {
+                $("#circle").css("width", w + "px");
+                w=w+50;
+            },1000* i);
+         }
+        });
+   
+ 
+
+       
+        
+      
+ 
+   </script>
+    
+</body>
+</html>

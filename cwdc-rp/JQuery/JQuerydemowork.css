@@ -1,0 +1,35 @@
+#circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(247, 140, 158);
+    margin: 10px;
+}
+#circle2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+}
+#circle3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(30, 175, 78);
+    margin: 10px;
+}
+#circle4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(214, 22, 128);
+    margin: 10px;
+}
+  #circle5{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(212, 190, 41);
+    margin: 10px;
+}
